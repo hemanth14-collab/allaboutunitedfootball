@@ -1,0 +1,72 @@
+body{
+	background-color: black;
+	color: white;
+}
+
+h4
+{
+	color: black;
+	text-align: center;
+}
+
+.card-body{
+	background-color: pink;
+}
+
+.card-text{
+	color: black;
+	text-align: center;
+}
+
+h5{
+	color: red;
+	text-align: center;
+	margin-top: 30px;
+}
+*{
+	font-family: Agency fb;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.container{
+	padding-top: 30px;
+}
+
+.container p{
+	padding-top: 40px;
+}
+
+h1{
+	text-align: center;
+	padding-top: 300px;
+}
+
+@keyframes boxmodel {
+	0% {background-color: green; top: 0; left: 0;}
+	25% {background-color: red;top: 0; left: 100px;}
+	50% {background-color: orange;top: 100px; left: 100px;}
+	75% {background-color: pink;left: 0;top: 100px;}
+	100% {background-color: green;top: 0; left: 0;}
+  
+  }
+
+
+h6{
+	position: relative;
+	margin: 10px;
+	height: 250px;
+	width: 350px;
+	background-color: green;
+	text-align: center;
+	line-height: 250px;
+	animation-name: boxmodel;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+footer{
+	background-color: pink;
+	text-align: center;
+	color: black;
+}
